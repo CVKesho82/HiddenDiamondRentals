@@ -1,0 +1,140 @@
+.App {
+  background-color:rgb(58, 58, 226);
+  min-height:100vh;
+}
+
+.App-header {
+  background-color:black;
+  /* min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin); */
+  
+}
+
+.App-link {
+  color: #4e2d0f;
+}
+
+.navbar{
+  height:10vh;
+  width: 125vh;
+  font-size: x-large; 
+  background-color:black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left: 20px;
+}
+.nav{
+  background: black;
+}
+.images{
+  width:100%;
+  height:100%;
+  position:sticky;
+  
+}
+.images1{
+  width:20%;
+  height:30%;
+  align-self: center;
+}
+.so{
+  column-width: auto;
+}
+.box{
+  display:flex;
+  gap:20px;
+  flex-direction: row;
+}
+h1{
+  color: white;
+}
+h2{
+  color: white;  
+}
+h3{
+  color: white;
+}
+h4{
+  color:white;
+}
+h5{
+  color:white !important;
+}
+h6{
+  color:black;
+}
+p{
+  color:white;
+}
+.card{
+  padding-left: 20px;
+  padding-right: 20px;
+  border:none;
+}
+/*Header CSS*/
+.header {
+  display:flex;
+  align-items:center;
+  position:sticky;
+  top:0;
+  background-color:black;
+  z-index:100; /**/
+  width:100%;
+}
+
+.header_logo{
+  height:100px;
+  align-content:center;
+}
+
+.header_center {
+  display:flex;
+  flex:1;
+  max-width:fit-content;
+  padding:10px;
+  height:30px;
+  border: 1px solid lightgrey;
+  border-radius:999px;
+}
+
+.header_center > input {
+  border:none;
+  width:250px;
+  outline-width:0; /*booleon: removes the input field outline box*/
+}
+
+/*Welcome*/
+.welcome {
+  height:20vh;
+  position:relative;
+}
+
+.welcome_search {
+  display:flex;
+  flex-direction:column;
+  
+}
+.welcome_info {
+  background-color:rgb(58, 58, 226);
+  padding-top:15vh;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom:40px;
+  width: 100%;
+  height: 400px;
+  color:white;
+  font-size: 60px;
+}
+
+.dateSearch{
+  position:absolute;
+  top:35px;
+  left:25%;
+  width:100vw;
+}
+
+
+
